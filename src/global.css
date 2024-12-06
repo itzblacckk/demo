@@ -1,0 +1,15 @@
+.watermark {
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Ensure perfect centering */
+    z-index: 1000; /* Keep it above all content */
+    font-size: 8rem; /* Increase the size for a big watermark */
+    color: rgba(255, 0, 0, 0.15); /* Use transparent red for a subtle effect */
+    font-weight: bold;
+    pointer-events: none; /* Ensure it doesn't block user interactions */
+    user-select: none; /* Prevent users from selecting the text */
+    text-transform: uppercase; /* Ensure "DEMO" is all caps */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
